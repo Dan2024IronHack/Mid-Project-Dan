@@ -8,5 +8,8 @@ FROM data_final
 GROUP BY generation
 ORDER BY AVG(income) DESC;
 
-SELECT generation 
+SELECT generation, children
+FROM data_final;
+
+SELECT generation, children
 FROM data_final;
